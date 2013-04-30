@@ -61,7 +61,7 @@ class MIMEMail
         }
         
         $this->headers .= "From: {$from}\r\n";
-        $this->headers .= "X-Mailer: Two9A's MIME-Mail 0.03, 20070419\r\n\r\n";
+        $this->headers .= "X-Mailer: Pete's MIME-Mail\r\n\r\n";
     }
 
     function getContents()    { return $this->headers . $this->output; }
